@@ -20,3 +20,10 @@ function openLinkOnHover() {
 const hoverImage = document.getElementById("hoverImg");
 
 hoverImage.addEventListener("mouseover", openLinkOnHover);
+
+
+//ALTERNATIVNO
+/*
+document.getElementById("hoverImg").addEventListener("mouseover", function(){
+    window.open("https://www.google.com", "_blank");
+});*/
